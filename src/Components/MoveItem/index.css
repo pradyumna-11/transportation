@@ -1,0 +1,331 @@
+.move-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.move-item-container-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.from-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 20px;
+  font-family: "Roboto";
+  width: 30%;
+}
+
+.span-bold {
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+
+.arrow-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-width: 0px;
+  box-shadow: 6px 6px 6px 6px whitesmoke;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.arrow-button:hover {
+  background-color: black;
+}
+
+.to-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 20px;
+  font-family: "Roboto";
+  width: 30%;
+}
+
+.estimate-id {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 12px;
+}
+
+.orange {
+  color: orange;
+}
+
+.move-item-container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.margin-right {
+  margin-right: 8px;
+}
+
+.container-2-item {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.view-more-details-button {
+  height: 38px;
+  width: 170px;
+  padding: 6px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 72, 0);
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(255, 72, 0);
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.quotes-waiting-button {
+  height: 38px;
+  width: 150px;
+  padding: 6px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: rgb(255, 72, 0);
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.move-item-container-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.disclaimer-content {
+  font-size: 18px;
+  font-family: "Roboto";
+  margin-left: 5px;
+}
+
+.line {
+  border-width: 2px;
+  border-color: grey;
+  width: 100%;
+  border-style: solid;
+}
+
+.margin-left {
+  margin-left: 7px;
+}
+
+.extra-info-container {
+  width: 100%;
+}
+
+.additional-info-container,
+.house-details-container,
+.inventory-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.additional-info-heading,
+.house-details-heading,
+.inventory-heading {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.edit-info-button {
+  width: 150px;
+  border-radius: 8px;
+  background-color: black;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px;
+  text-align: center;
+  border-width: 0px;
+  height: 37px;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+
+.test-data-content {
+  color: grey;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+}
+
+.existing-house-details-container,
+.new-house-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.existing-house-details-heading,
+.new-house-details-heading {
+  font-size: 25px;
+  font-family: "Roboto";
+  color: orange;
+}
+
+.existing-house-details-items-container,
+.new-house-details-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.existing-house-detail-item,
+.new-house-detail-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.house-detail-item-heading {
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.house-detail-item-para {
+  font-size: 14px;
+  color: gray;
+}
+
+.inventory-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+}
+
+.inventory-item {
+  width: 100%;
+  list-style-type: none;
+
+  margin-bottom: 4px;
+}
+
+.inventory-content-container {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+}
+
+.inventory-item-name {
+  color: rgb(255, 72, 0);
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.inevntory-item-count {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #ffffff;
+  background-color: rgb(255, 72, 0);
+  border-radius: 50%;
+  border-width: 0px;
+  margin-left: 7px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.down-button {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.d-none {
+  display: none;
+}
+
+.types-of-inner-details-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0px;
+}
+
+.type-item-detail-container {
+  list-style-type: none;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.each-item-inner-detail {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+  width: 160px;
+}
+
+.inner-item-name {
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+.inner-item-quantity {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Roboto";
+}

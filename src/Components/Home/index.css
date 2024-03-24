@@ -1,0 +1,79 @@
+.main-bg {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+}
+
+.side-bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 300px;
+  height: 100vh;
+}
+
+.side-bar-item {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 20px;
+  font-family: "Sans Serif";
+  font-weight: bold;
+}
+
+.red {
+  border-width: 8px;
+  border-radius: 1px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-color: red;
+}
+
+.icon-margin {
+  margin-right: 15px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+
+.failure-img {
+  height: 200px;
+  width: 200px;
+}
+
+.failure-msg {
+  font-size: 20px;
+  font-family: "Bree Serif";
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.retry-books-button {
+  background-color: #24a0ed;
+  font-size: 17px;
+  padding: 6px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  height: 38px;
+  width: 100px;
+}
+
+.home-page-move-items-container {
+  width: 100%;
+  padding: 0px;
+}
