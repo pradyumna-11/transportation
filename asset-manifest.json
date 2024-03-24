@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/transportation/static/css/main.45919d22.css",
+    "main.js": "/transportation/static/js/main.68661001.js",
+    "static/js/453.ad6eb26e.chunk.js": "/transportation/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/transportation/index.html",
+    "main.45919d22.css.map": "/transportation/static/css/main.45919d22.css.map",
+    "main.68661001.js.map": "/transportation/static/js/main.68661001.js.map",
+    "453.ad6eb26e.chunk.js.map": "/transportation/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45919d22.css",
+    "static/js/main.68661001.js"
+  ]
+}
